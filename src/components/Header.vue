@@ -67,6 +67,14 @@
             全局设置
           </n-popover>
         </n-space>
+      
+      <template>
+  <a href="http://hyermall.com" target="_self">返回花样猫</a>
+</template>
+      
+      
+      
+      
       </div>
       <div class="mobile">
         <n-dropdown

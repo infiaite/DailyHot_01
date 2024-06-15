@@ -24,7 +24,7 @@
 <script setup>
 import { mainStore } from "@/store";
 import Provider from "@/components/Provider.vue";
-import Header from "@/components/Header.vue";
+// import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 
 const store = mainStore();

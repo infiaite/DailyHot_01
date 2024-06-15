@@ -24,13 +24,13 @@
 <script setup>
 import { mainStore } from "@/store";
 import Provider from "@/components/Provider.vue";
-// import Header from "@/components/Header.vue";
+import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 
 const store = mainStore();
 
 // 顶栏显隐
-const headerShow = ref(false);
+const headerShow = ref(true);
 
 // 回顶按钮显隐
 const backTopChange = (val) => {

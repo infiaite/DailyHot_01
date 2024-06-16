@@ -1,15 +1,14 @@
+<script>
 export default {
-
   mounted() {
-    this.goToUrl();
+    this.redirectToExternalUrl();
   },
   methods: {
-    goToUrl() {
-      const url = 'http://www.hyermall.com';
-      window.location.href = url;
+    redirectToExternalUrl() {
+      const externalUrl = 'http://www.hyermall.com';
+      window.location.href = externalUrl;
     }
   }
 }
-
-
+</script>
 

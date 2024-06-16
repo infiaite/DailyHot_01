@@ -69,7 +69,7 @@
         
           <n-popover>
             <template #trigger>
-            <n-button secondary strong round @click="goToUrl"
+            <n-button secondary strong round @click="goToHyermall"
                   <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>
@@ -123,15 +123,7 @@ const router = useRouter();
 const store = mainStore();
 const timeInterval = ref(null);
 const showRefresh = ref(false);
-
-export default {
-  methods: {
-    goToUrl() {
-
-      this.$router.push('http://www.hyermall.com.com');
-    }
-  }
-  
+ 
 // 移动端时间模块
 const timeRender = () => {
   return h(
@@ -242,7 +234,15 @@ onBeforeUnmount(() => {
   clearInterval(timeInterval.value);
 });
 </script>
-
+<script>
+export default {
+  methods: {
+    goToHyermall() {
+      this.$router.push('http://www.hyermall.com');
+    }
+  }
+}
+</script>
 <style lang="scss" scoped>
 .header {
   height: 118px;

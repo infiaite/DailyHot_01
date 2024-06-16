@@ -69,8 +69,15 @@
         
           <n-popover>
             <template #trigger>
-                   <n-button secondary strong round @click="() => this.$router.push('http://www.hyermall.com')">
-              
+            <n-button secondary strong round @click="goToHyermall">
+  Go to HyerMall
+</n-button>
+
+methods: {
+  goToHyermall() {
+    this.$router.push('http://www.hyermall.com');
+  }
+}
                 <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>

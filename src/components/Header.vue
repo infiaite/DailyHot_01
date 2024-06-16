@@ -126,7 +126,8 @@ const showRefresh = ref(false);
 
 
 const jumpLink = (url) => {
-  window.open(url);
+  
+  window.location.href = url;
 };
 
 

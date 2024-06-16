@@ -124,7 +124,7 @@ const store = mainStore();
 const timeInterval = ref(null);
 const showRefresh = ref(false);
 
-
+import packageJson from "@/../package.json";
 
 // 链接跳转
 const jumpLink = (url) => {

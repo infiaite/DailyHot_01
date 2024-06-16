@@ -69,9 +69,9 @@
         
           <n-popover>
             <template #trigger>
-              <n-button secondary strong round @click="back_to_hyer">
+              <n-button secondary strong round @click="router.push('www.hyermall.com')">
                 <template #icon>
-                  <n-icon :component="back_to_hyer" />
+                  <n-icon :component="SettingTwo" />
                 </template>
               </n-button>
             </template>

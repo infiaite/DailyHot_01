@@ -67,15 +67,14 @@ const routes = [
     redirect: "/404",
   }, 
 
-  {
-    path: "/",
+{
+    path: "/hyer",
     name: "hyer",
     meta: {
       title: "花样儿猫",
     },
     component: () => import("@/views/hyer.vue"),
   },
-
 
 
   

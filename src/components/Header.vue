@@ -66,16 +66,20 @@
             </template>
             全局设置
           </n-popover>
-         <n-popover v-if="showRefresh">
+        
+          <n-popover>
             <template #trigger>
-              <n-button secondary strong round @click="router.go(1)">
+              <n-button secondary strong round @click="router.push('https://www.hyermall.com')">
                 <template #icon>
-                  <n-icon :component="Refresh" />
+                  <n-icon :component="SettingTwo" />
                 </template>
               </n-button>
             </template>
-                       返回
+            返回
           </n-popover>
+          
+          
+          
        </n-space>
       
      

@@ -69,7 +69,7 @@
         
           <n-popover>
             <template #trigger>
-            <n-button secondary strong round @click="goToHyermall">
+            <n-button secondary strong round @click="jumpLink('http://hyermall.com/')"
                   <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>

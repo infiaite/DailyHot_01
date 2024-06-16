@@ -70,7 +70,7 @@
           <n-popover>
             <template #trigger>
             <n-button secondary strong round @click="goToHyermall">
-                        
+                        <a href="http://www.sohu.com" target="_blank">Go to Sohu</a>
               <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>

@@ -69,9 +69,9 @@
         
           <n-popover>
             <template #trigger>
-              <n-button secondary strong round @click="goToUrl">
+              <n-button secondary strong round @click="back_to_hyer">
                 <template #icon>
-                  <n-icon :component="goToUrl" />
+                  <n-icon :component="back_to_hyer" />
                 </template>
               </n-button>
             </template>

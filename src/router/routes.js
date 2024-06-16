@@ -69,7 +69,7 @@ const routes = [
 
   {
   methods: {
-    goToUrl() {
+    back_to_hyer() {
            this.$router.push('www.hyermall.com');
     }
   },

@@ -69,23 +69,18 @@
         
           <n-popover>
             <template #trigger>
-            <n-button secondary strong round @click="goToHyermall"
-                  <template #icon>
+            <n-button secondary strong round @click="goToHyermall">
+                        
+              <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>
               </n-button>
             </template>
            返回花样儿猫
-          </n-popover>
-          
-          
-          
+          </n-popover>         
        </n-space>
       
-     
-      
-      
-      
+           
       </div>
       <div class="mobile">
         <n-dropdown

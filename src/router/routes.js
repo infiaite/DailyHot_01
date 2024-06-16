@@ -65,19 +65,7 @@ const routes = [
   {
     path: "/:pathMatch(.*)",
     redirect: "/404",
-  },
-
-  {
-  methods: {
-    back_to_hyer() {
-           this.$router.push('www.hyermall.com');
-    }
-  },
-  components: {
-        back_to_hyer: () => import('./path-to-refresh-icon-component'),
-  }，
-
- 
+  }, 
 ];
 
 export default routes;

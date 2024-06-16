@@ -69,10 +69,7 @@
         
           <n-popover>
             <template #trigger>
-              <n-button secondary strong round @click="jumpLink('https://beian.miit.gov.cn/')">
-
-                <template>   <a href="http://www.hyermall.com" target="_self">Visit Example</a></template>
-                 
+              <n-button secondary strong round @click="jumpLink('http://mail.hyermall.com/')">        
                 <template #icon>
                   <n-icon :component="Refresh" />
                 </template>
@@ -245,15 +242,7 @@ onBeforeUnmount(() => {
   clearInterval(timeInterval.value);
 });
 </script>
-<script>
-export default {
-  methods: {
-    goToHyermall() {
-      this.$router.push('http://www.hyermall.com');
-    }
-  }
-}
-</script>
+
 <style lang="scss" scoped>
 .header {
   height: 118px;

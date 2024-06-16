@@ -73,11 +73,7 @@
   Go to HyerMall
 </n-button>
 
-methods: {
-  goToHyermall() {
-    this.$router.push('http://www.hyermall.com');
-  }
-}
+
                 <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>

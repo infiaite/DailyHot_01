@@ -78,7 +78,7 @@
                 </template>
               </n-button>
             </template>
-            返回花样儿猫
+             <a href="http://www.hyermall.com" target="_self">返回花样猫</a>
            </n-popover>         
        </n-space>
 

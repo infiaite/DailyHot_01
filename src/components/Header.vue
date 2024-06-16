@@ -124,6 +124,13 @@ const store = mainStore();
 const timeInterval = ref(null);
 const showRefresh = ref(false);
 
+
+
+// 链接跳转
+const jumpLink = (url) => {
+  window.open(url);
+};
+  
 // 移动端时间模块
 const timeRender = () => {
   return h(

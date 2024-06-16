@@ -69,7 +69,7 @@
         
           <n-popover>
             <template #trigger>
-            <n-button secondary strong round @click="jumpLink('http://hyermall.com/')"
+            <n-button secondary strong round @click="goToUrl"
                   <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>
@@ -124,12 +124,13 @@ const store = mainStore();
 const timeInterval = ref(null);
 const showRefresh = ref(false);
 
-import packageJson from "@/../package.json";
+export default {
+  methods: {
+    goToUrl() {
 
-// 链接跳转
-const jumpLink = (url) => {
-  window.open(url);
-};
+      this.$router.push('http://www.hyermall.com.com');
+    }
+  }
   
 // 移动端时间模块
 const timeRender = () => {

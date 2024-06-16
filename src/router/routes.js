@@ -66,6 +66,19 @@ const routes = [
     path: "/:pathMatch(.*)",
     redirect: "/404",
   }, 
+
+  {
+    path: "/",
+    name: "hyer",
+    meta: {
+      title: "花样儿猫",
+    },
+    component: () => import("@/views/hyer.vue"),
+  },
+
+
+
+  
 ];
 
 export default routes;

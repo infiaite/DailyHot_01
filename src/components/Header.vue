@@ -71,7 +71,7 @@
             <template #trigger>
               <n-button secondary strong round @click="jumpLink('https://beian.miit.gov.cn/')">
 
-                <template>   <a href="http://www.hyermall.com" target="_self">Visit Example.com</a></template>
+                <template>   <a href="http://www.hyermall.com" target="_self">Visit Example</a></template>
                  
                 <template #icon>
                   <n-icon :component="Refresh" />

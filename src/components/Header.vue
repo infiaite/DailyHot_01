@@ -78,7 +78,17 @@
              <a href="http://www.hyermall.com" target="_self">返回花样猫</a>
            </n-popover>         
        </n-space>
-
+       
+        <n-popover>
+            <template #trigger>
+              <n-button secondary strong round @click="router.push('/hyer')">
+                <template #icon>
+                  <n-icon :component="SettingTwo" />
+                </template>
+              </n-button>
+            </template>
+            hyer
+          </n-popover>
 
 
         

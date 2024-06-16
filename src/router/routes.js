@@ -69,13 +69,3 @@ const routes = [
 ];
 
 export default routes;
-export default {
-  methods: {
-    goToUrl() {
-           this.$router.push('www.hyermall.com');
-    }
-  },
-  components: {
-    goToUr: () => import('./path-to-refresh-icon-component'),
-  }
-};

@@ -69,8 +69,7 @@
         
           <n-popover>
             <template #trigger>
-            <n-button secondary strong round @click="goToHyermall">
-                        <a href="http://www.sohu.com" target="_blank">Go to Sohu</a>
+            <n-button secondary strong round @click="jumpLink('https://beian.miit.gov.cn/')"
               <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>
@@ -118,7 +117,20 @@ const router = useRouter();
 const store = mainStore();
 const timeInterval = ref(null);
 const showRefresh = ref(false);
- 
+
+
+import packageJson from "@/../package.json";
+
+
+const jumpLink = (url) => {
+  window.open(url);
+};
+
+
+
+
+
+  
 // 移动端时间模块
 const timeRender = () => {
   return h(

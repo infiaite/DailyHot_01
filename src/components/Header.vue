@@ -70,13 +70,15 @@
           <n-popover>
             <template #trigger>
               <n-button secondary strong round @click="jumpLink('https://beian.miit.gov.cn/')">
+
+                <template>   <a href="http://www.hyermall.com" target="_self">Visit Example.com</a></template>
+                 
                 <template #icon>
                   <n-icon :component="Refresh" />
                 </template>
               </n-button>
             </template>
-             <a href="http://www.hyermall.com" target="_self">Visit Example.com</a>
-           返回花样儿猫
+            返回花样儿猫
            </n-popover>         
        </n-space>
 

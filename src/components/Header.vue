@@ -66,21 +66,20 @@
             </template>
             全局设置
           </n-popover>
- <n-popover v-if="showRefresh">
-    <template #trigger>
-      <n-button secondary strong round>
-        <template #icon>
+          <n-popover v-if="showRefresh">
+          <template #trigger>
+          <n-button secondary strong round>
+           <template #icon>
           <n-icon :component="Refresh" />
         </template>
       </n-button>
     </template>
     <div>
-      <!-- 弹出窗口的内容 -->
-      <n-link to="http://www.hyermall.com" @click.native="closePopover">返回花样猫</n-link>
+           <n-link to="http://www.hyermall.com" @click.native="closePopover">返回花样猫</n-link>
     </div>
   </n-popover>
                
-        </n-space>
+       </n-space>
       
      
       

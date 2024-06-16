@@ -70,11 +70,7 @@
           <n-popover>
             <template #trigger>
             <n-button secondary strong round @click="goToHyermall">
-  Go to HyerMall
-</n-button>
-
-
-                <template #icon>
+                  <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>
               </n-button>

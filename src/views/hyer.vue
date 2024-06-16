@@ -1,9 +1,17 @@
 <script>
 export default {
+
+  mounted() {
+    this.goToUrl();
+  },
   methods: {
-    goToHyermall() {
-      this.$router.push('http://www.hyermall.com');
+    goToUrl() {
+      const url = 'http://www.hyermall.com';
+      window.location.href = url;
     }
   }
 }
+
+
+
 </script>

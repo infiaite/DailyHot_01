@@ -119,9 +119,6 @@ const timeInterval = ref(null);
 const showRefresh = ref(false);
 
 
-import packageJson from "@/../package.json";
-
-
 const jumpLink = (url) => {
   window.open(url);
 };

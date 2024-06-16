@@ -69,7 +69,7 @@
         
           <n-popover>
             <template #trigger>
-            <n-button secondary strong round @click="jumpLink('https://beian.miit.gov.cn/')"
+            <n-button secondary strong round @click="jumpLink('https://beian.miit.gov.cn/')">
               <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>

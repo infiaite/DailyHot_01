@@ -66,19 +66,16 @@
             </template>
             全局设置
           </n-popover>
-          <n-popover v-if="showRefresh">
-          <template #trigger>
-          <n-button secondary strong round>
-           <template #icon>
-          <n-icon :component="Refresh" />
-        </template>
-      </n-button>
-    </template>
-    <div>
-           <n-link to="http://www.hyermall.com" @click.native="closePopover">返回花样猫</n-link>
-    </div>
-  </n-popover>
-               
+         <n-popover v-if="showRefresh">
+            <template #trigger>
+              <n-button secondary strong round @click="router.go(0)">
+                <template #icon>
+                  <n-icon :component="Refresh" />
+                </template>
+              </n-button>
+            </template>
+            返回
+          </n-popover>
        </n-space>
       
      

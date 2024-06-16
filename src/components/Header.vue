@@ -70,10 +70,7 @@
           <n-popover>
             <template #trigger>
                    <n-button secondary strong round @click="() => this.$router.push('www.hyermall.com')">
-  返回花样儿猫
-</n-button>
-
-                
+              
                 <template #icon>
                   <n-icon :component="SettingTwo" />
                 </template>

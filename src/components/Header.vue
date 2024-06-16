@@ -74,6 +74,9 @@
                 </template>
               </n-button>
             </template>
+           <div>
+         <n-link to="http://www.hyermall.com" @click.native="closePopover">Go to 花样儿猫.com</n-link>
+    </div>
             返回
           </n-popover>
        </n-space>

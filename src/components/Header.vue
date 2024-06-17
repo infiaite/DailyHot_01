@@ -182,6 +182,15 @@ const menuOptions = [
       });
     },
   },
+{
+    label: "返回花样儿猫",
+    key: "back_hyer",
+    icon: () => {
+      return h(NIcon, null, {
+        default: () => h(Refresh),
+      });
+    },
+  }, 
 ];
 
 // 移动端下拉菜单点击事件
@@ -192,6 +201,8 @@ const menuOptionsSelect = (val) => {
     store.setSiteTheme(store.siteTheme === "light" ? "dark" : "light");
   } else if (val === "setting") {
     router.push("/setting");
+  } else if (val === "back_hyer") {
+    router.push("/hyer");
   }
 };
 

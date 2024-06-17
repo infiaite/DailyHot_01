@@ -66,32 +66,17 @@
             </template>
             全局设置
           </n-popover>
-        
-          <n-popover>
+         <n-popover>
             <template #trigger>
-              <n-button secondary strong round @click="jumpLink('http://www.hyermall.com/')">        
+              <n-button secondary strong round @click="router.push('/hyer')">
                 <template #icon>
                   <n-icon :component="Refresh" />
                 </template>
               </n-button>
             </template>
-             <a href="http://www.hyermall.com" target="_self">返回花样猫</a>
+            <a href="http://www.hyermall.com" target="_self">返回花样猫</a>
            </n-popover>         
-       </n-space>
-       
-        <n-popover>
-            <template #trigger>
-              <n-button secondary strong round @click="router.push('/hyer')">
-                <template #icon>
-                  <n-icon :component="SettingTwo" />
-                </template>
-              </n-button>
-            </template>
-            hyer
-          </n-popover>
-
-
-        
+        </n-space>
            
       </div>
       <div class="mobile">
@@ -130,17 +115,6 @@ const router = useRouter();
 const store = mainStore();
 const timeInterval = ref(null);
 const showRefresh = ref(false);
-
-
-const jumpLink = (url) => {
-  
-  window.location.href = url;
-};
-
-
-
-
-
   
 // 移动端时间模块
 const timeRender = () => {

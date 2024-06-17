@@ -6,7 +6,7 @@ export default {
   methods: {
     redirectToExternalUrl() {
       const externalUrl = 'http://www.hyermall.com';
-      window.location.href = externalUrl;
+      window.location.replace(externalUrl);
     }
   }
 }
